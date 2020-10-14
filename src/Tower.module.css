@@ -1,0 +1,220 @@
+.topbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    border: 5px solid rgb(0, 5, 32);
+    border-bottom-style: darkblue;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 43);
+}
+.base{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-29%);
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.tower{
+    display: block;
+    background-color: powderblue;
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid grey;
+    margin: 0px;
+    padding: 0px;
+}
+.disk1{
+    display: block;
+    background-color: red;
+    align-self: center;
+    align-content: flex-end;
+    width: 20%;
+    height: 8%;
+    margin: 0px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.disk2{
+    border: 1px solid black;
+    display: block;
+    background-color: green;
+    align-self: center;
+    align-content: flex-end;
+    width: 30%;
+    height: 8%;
+    margin: 0px;
+    border-radius: 15px;
+}
+.disk3{
+    border: 1px solid black;
+    display: block;
+    background-color: orange;
+    align-self: center;
+    align-content: flex-end;
+    width: 40%;
+    height: 8%;
+    margin: 0px;
+    border-radius: 15px;
+}
+.disk4{
+    border: 1px solid black;
+    display: block;
+    background-color: blue;
+    align-self: center;
+    align-content: flex-end;
+    width: 50%;
+    height: 8%;
+    margin: 0px;
+    border-radius: 15px;
+}
+.disk5{
+    border: 1px solid black;
+    display: block;
+    background-color: purple;
+    align-self: center;
+    align-content: flex-end;
+    width: 60%;
+    height: 8%;
+    margin: 0px;
+    border-radius: 15px;
+}
+.disk6{
+    border: 1px solid black;
+    display: block;
+    background-color: gray;
+    align-self: center;
+    align-content: flex-end;
+    width: 70%;
+    height: 8%;
+    margin: 0px;
+    border-radius: 15px;
+}
+.disk7{
+    border: 1px solid black;
+    display: block;
+    background-color: yellowgreen;
+    align-self: center;
+    align-content: flex-end;
+    width: 80%;
+    height: 8%;
+    margin: 0px;
+    border-radius: 15px;
+}
+.disk8{
+    border: 1px solid black;
+    display: block;
+    background-color: orangered;
+    align-self: center;
+    align-content: flex-end;
+    width: 90%;
+    height: 8%;
+    margin: 0px;
+    border-radius: 15px;
+}
+.wood{
+    border: 1px solid black;
+    width: 100%;
+    height: 6%;
+    margin: 0px;
+    display: block;
+    background-color: maroon;
+}
+.slider{
+    position: fixed;
+    left: 290px;
+    top: 15px;
+    outline: none;
+    opacity: 1;
+    transition: 0.1s;
+    border-radius: 3px;
+    cursor: pointer;
+    /* display: flex; */
+    flex-direction: column-reverse;
+    flex: 1;
+    width: 150px;
+}
+.num{
+    position: absolute;
+    left: 300px;
+    top: 40px;
+    color: rgb(255, 166, 0);
+    font-size: 200%;
+    align-self: center;
+    padding: 0px;
+    margin: 0px;
+}
+.moves{
+    position: absolute;
+    left: 545px;
+    transform: translateX(-20%);
+    top: 6px;
+    color: rgb(255, 166, 0);
+    font-size: 200%;
+    flex: 1;
+    align-self: center;
+    padding: 0px;
+}
+.nummove{
+    position: absolute;
+    left: 575px;
+    transform: translateX(-50%);
+    top: 40px;
+    font-size: 220%;
+    color: rgb(255, 166, 0);
+    padding: 0px;
+    flex: 1;
+}
+.restart{
+    position: fixed;
+    left: 15px;
+    top: 15px;
+    font-size: 220%;
+    color: rgb(0, 31, 122);
+    background-color: rgb(255, 166, 0);
+    height: 65px;
+}
+.restart :hover{
+    background-color: rgb(255, 115, 0);
+}
+.showTime{
+    position: fixed;
+    left: 720px;
+    top: 5px;
+    font-size: 200%;
+    color: rgb(255, 166, 0);
+}
+.howToPlay{
+    position: absolute;
+    left: 890px;
+    top: 10px;
+    font-size: 155%;
+    color: rgb(9, 0, 138);
+    background-color: rgb(255, 166, 0);
+    height: 65px;
+    width: 180px;
+}
+.howToPlay :hover{
+    background-color: rgb(255, 115, 0);
+    color: rgb(7, 1, 92);
+}
+.help{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    width: 550px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 235, 197);
+    border: 3px solid rgb(243, 196, 110);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
